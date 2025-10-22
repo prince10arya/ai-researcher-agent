@@ -29,4 +29,4 @@ def read_pdf(url: str) -> str:
         text += page.extract_text() + "\n"
     print("Successfully extrancted")
     return text.strip()
-url="http://arxiv.org/pdf/2510.15870v1"
+

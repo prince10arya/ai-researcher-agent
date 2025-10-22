@@ -1,12 +1,12 @@
-from langchain_core.tools import tool
 from datetime import datetime
 from pathlib import Path
 import os
-import glob
 import subprocess
-import shutil
+from langchain_core.tools import tool
+
 
 # Step2
+@tool
 def render_latex_pdf(latex_content: str) -> str:
     """Render latex document to pdf
 

@@ -72,12 +72,12 @@ def parse_arxiv_xml(xml_content: str) -> dict:
     return {"entries": entries}
 
 # print(resp.text)
-print(search_arxiv_paper("transformer models", 5))
+# print(search_arxiv_paper("transformer models", 5))
 
 
 # Convert the fuctionality into tool
 @tool
-def arxiv_tool(topic: str)-> list[dict]:
+def arxiv_search_tool(topic: str)-> list[dict]:
     """search for recently uploaded arxiv  papers
 
     Args:
