@@ -1,5 +1,5 @@
 import streamlit as st
-from ai_researcher_3 import INITIAL_PROMPT, graph, config
+from ai_researcher3 import INITIAL_PROMPT, graph, config
 from pathlib import Path
 import logging
 from langchain_core.messages import AIMessage
